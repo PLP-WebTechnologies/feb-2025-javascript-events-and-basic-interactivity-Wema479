@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Wema Ekirapa Webpage</title>
+</head>
+<body>
+
+  <h2>JS Event handling Assignment</h2>
+  <div id="content">
+    <p>What you'll learn</p>
+  </div>
+  <div id="content2">
+    <p>What is Event handling in JS?</p>
+    <p>What are Interactive elements in JS?</p>
+  </div>
+  
+  <button id="clickButton">Click</button>
+  <p id="textToChange">This text will change!</p>
+  <div id="hoverDiv" style="width: 100px; height: 100px; background-color: lightblue;">Hover over me</div>
+  <input type="text" id="keypressInput" placeholder="Type something here">
+  <p id="secretAction" style="display: none;">🎉 Secret Action Triggered! 🎉</p>
+  
+  <div class="tabs">
+  <button class="tabButton" data-tab="tab1">Tab 1</button>
+  <button class="tabButton" data-tab="tab2">Tab 2</button>
+  <button class="tabButton" data-tab="tab3">Tab 3</button>
+  </div>
+
+  <div id="tab1" class="tabContent">Content for Tab 1</div>
+  <div id="tab2" class="tabContent" style="display: none;">Content for Tab 2</div>
+  <div id="tab3" class="tabContent" style="display: none;">Content for Tab 3</div>
+  
+  <form id="validationForm">
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+  <span id="emailError" style="color: red; display: none;">Invalid email format</span>
+  <br><br>
+  
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password" required>
+  <span id="passwordError" style="color: red; display: none;">Password must be at least 8 characters</span>
+  <br><br>
+  
+  <button type="submit">Submit</button>
+</form>
+
+  <script src="script.js"></script>
+ 
+</body>
+</html>
+
+
+
+
+
